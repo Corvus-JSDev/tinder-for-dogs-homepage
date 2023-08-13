@@ -1,0 +1,130 @@
+.gradient-background {
+  background: linear-gradient(300deg, #00bfff, #ff4c68, #ef8172);
+  background-size: 180% 180%;
+  animation: gradient-animation 18s ease infinite;
+}
+
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.icon-square {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 0.75rem;
+}
+
+.profile-img {
+  height: 100px;
+  border-radius: 50%;
+  display: block;
+}
+
+
+#testimonial{
+  display: flex;
+  flex-flow: column nowrap;
+  background-color: rgba(233, 231, 216, 0.377);
+  width: auto;
+  padding: 65px 0px;
+  justify-content: center;
+  align-items: center;
+}
+
+.flexbox-testimonial{
+  display: inline-flex;
+  flex-flow: column wrap;
+  max-width: 800px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+#pebbles-tag{
+  display: block;
+}
+
+.flexbox-test-company{
+  display: flex;
+  flex-flow: row nowrap;
+  gap: 4rem;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+}
+.flexbox-test-company > img {
+  height: 30px;
+}
+
+.flexbox-pricing{
+  display: inline-flex;
+  flex-flow: row nowrap;
+  width: 100%; height: auto;
+  justify-content: center;
+  align-items: center;
+  padding: 50px 100px;
+  gap: 40px;
+}
+
+.footer1{
+  height: 150px;
+  margin: 0px;
+}
+
+
+
+
+
+
+
+@media (max-width: 900px) {
+  .flexbox-test-company{
+    display: flex;
+    flex-flow: column wrap;
+    gap: 4rem;
+    margin-top: 60px;
+  }
+  .text{
+    margin-bottom: 40px;
+  }
+  .flexbox-pricing{
+    display: inline-flex;
+    flex-flow: column nowrap;
+    gap: 3rem;
+    max-width: 100%;
+  }
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
